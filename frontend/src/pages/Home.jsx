@@ -12,7 +12,6 @@ import Subtitle from '../shared/Subtitle'
 import SearchBar from '../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
-import Subtitles from './../shared/Subtitle';
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
 import Testimonials from '../components/Testimonial/Testimonials'
 import Newsletter from '../shared/Newsletter'

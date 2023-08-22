@@ -14,7 +14,6 @@ const TourCard = ({tour}) => {
         <img src={photo} alt='tour-img'/>
         {featured &&<span>Featured</span>}
       </div>
-
       <CardBody>
       <div className="card__top d-flex align-items-center justify-content-between">
         <span className='tour__location d-flex aligm-items-center gap-1'>
@@ -22,7 +21,7 @@ const TourCard = ({tour}) => {
         </span>
         <span className='tour__rating d-flex aligm-items-center gap-1'>
           <i class="ri-star-fill"></i>{avgRating===0 ? null :avgRating}
-          {totalRating===0 ? 'Not rated' :<span>({reviews.length})</span>}
+          {totalRating===0 ? 'Not rated' :(<span>({reviews.length})</span>)}
         </span>
       </div>
       <h5 className='tour__title'>

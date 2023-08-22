@@ -2,6 +2,10 @@
     width: 100%;
     height: 80px;
     line-height: 80px;
+    position:fixed;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 3px 3px 8px -3px #ddd;
 }
 
 .logo img{

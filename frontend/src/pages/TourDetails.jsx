@@ -12,7 +12,7 @@ const TourDetails = () => {
 
   const {id} = useParams()
   const reviewMsgRef=useRef('')
-  const [tourRating, setTourRating]=useState(null)
+  const [setTourRating]=useState(null)
   const tour = tourData.find(tour=>tour.id===id)
   const {photo,title,desc,price,reviews,address,city,distance,maxGroupSize}=tour
   const {totalRating, avgRating}=calculateAvgRating(reviews)
@@ -23,7 +23,6 @@ const TourDetails = () => {
   //submit request to the server
   const submitHandler = e=>{
     e.preventDefault()
-    const reviewText = reviewMsgRef.current.value 
   }
   return <>
     <section>

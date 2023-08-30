@@ -79,7 +79,7 @@ export const getTourBySearch = async(req,res)=>{
 }
 
 //get featured tour
-export const getFeaturedTour = async(req,res)=>{
+export const getFeaturedTours = async(req,res)=>{
 
     //for pagination
     const page = parseInt(req.query.page)
